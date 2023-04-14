@@ -816,6 +816,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    margin-bottom: 16px;
 }
 
 .modal-form {
@@ -823,12 +824,32 @@ body {
     flex-direction: column;
 }
 
+.modal-form-input-desc {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 4px;
+}
+
+.modal-form-field {
+    margin-bottom: 8px;
+}
+
+.modal-form-input-wrapper {
+    display: block;
+    position: relative;
+}
+
+
 .modal-form-input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 42px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -837,6 +858,14 @@ body {
     border: 1px solid #4D5AE5;
 }
 
+.modal-form-input-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translate(0, -50%);
+    fill: currentColor;
+
+}
 
 
 
