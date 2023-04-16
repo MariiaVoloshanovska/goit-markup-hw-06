@@ -983,7 +983,6 @@ body {
     line-height: 2;
     letter-spacing: 0.04em;
     color: var(--white-color);
-    padding-left: 0;
 }
 
 .button-input {
