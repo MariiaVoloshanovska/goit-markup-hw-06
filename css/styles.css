@@ -604,12 +604,82 @@ body {
     align-items: baseline;
 }
 
-.one {
+.foot-div-first {
     margin-right: 120px;
 }
 
-.two {
+.foot-div-second {
     margin-right: 80px;
+}
+
+/* Footer 6 module */
+
+.sub-foot {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.modal-form-input-footer {
+    width: 262px;
+    height: 38px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding-left: 16px;
+    margin-right: 24px;
+    background-color: var(--primary-text-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input-footer::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+}
+
+.modal-form-input-footer:focus {
+    outline: none;
+    border: 1px solid #4D5AE5;
+}
+
+.button-input {
+    position: relative;
+    display: inline-flex;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    background: var(--logo-footer);
+    border-radius: 4px;
+    border: none;
+
+    /* background-image: url("../images/attributes/airplane-footer.svg");
+    background-repeat: no-repeat;
+    background-position: 80% 14%; */
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-classs-first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    margin: 8px 24px;
+}
+
+.svg-foot-des {
+    right: 0, 50%;
+    fill: var(--white-color);
 }
 
 /* =========================== FOOTER ============================ */
@@ -856,7 +926,6 @@ body {
     border-radius: 4px;
     padding-left: 42px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .modal-form-input:focus {
@@ -931,7 +1000,6 @@ body {
     outline: 1.5px solid rgba(0, 0, 255, 0.5);
 }
 
-
 .modal-form-submit {
     align-self: center;
     padding: 16px 32px;
@@ -957,79 +1025,6 @@ body {
 
 
 
-.sub-foot {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-}
-
-.modal-form-input-footer {
-    width: 262px;
-    height: 38px;
-    border: 1px solid #FFFFFF;
-    border-radius: 4px;
-    padding-left: 16px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-right: 24px;
-    background-color: var(--primary-text-color);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input-footer::placeholder {
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: var(--white-color);
-}
-
-.button-input {
-    position: relative;
-    display: inline-flex;
-    padding: 8px 24px;
-    width: 165px;
-    height: 40px;
-    background: var(--logo-footer);
-    border-radius: 4px;
-    border: none;
-    
-    /* background-image: url("../images/attributes/airplane-footer.svg");
-    background-repeat: no-repeat;
-    background-position: 80% 14%; */
-
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    color: var(--white-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.svg-classs-first {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0;
-    margin: 8px 24px;
-}
-
-.svg-foot-des {
-    right: 0, 50%;
-    fill: var(--white-color);
-}
-
-
-/* .button-input::after {
-    content: "";
-    display: inline-block;
-    background-image: url("../images/attributes/airplane-footer.svg");
-    background-repeat: no-repeat;
-    background-position: content;
-} */
 
 
 
