@@ -625,7 +625,6 @@ body {
 }
 
 .button-input {
-    position: relative;
     display: inline-flex;
     padding: 8px 24px;
     width: 165px;
