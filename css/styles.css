@@ -840,7 +840,7 @@ body {
 
 .modal-close-btn {
     display: flex;
-    /* position: absolute; */
+    position: absolute;
     top: 24px;
     right: 24px;
 
